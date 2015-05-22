@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include/ILibraryLoader.h" open="0" top="0" tabpos="0">
+		<Cursor position="1231" topLine="12" />
+	</File>
+	<File name="include/LibraryLoader.h" open="0" top="0" tabpos="1">
+		<Cursor position="520" topLine="13" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="0">
+		<Cursor position="1316" topLine="41" />
+	</File>
+	<File name="src/LibraryLoader.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2170" topLine="56" />
+	</File>
+</CodeBlocks_layout_file>

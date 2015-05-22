@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1426954899 source:c:\documents and settings\propietario\escritorio\desarrollo\the-example-refactoring-04-windows\lib\consolemessenger\main.cpp
+	"../../include/IMessenger.h"
+	<iostream>
+
+1426954899 c:\documents and settings\propietario\escritorio\desarrollo\the-example-refactoring-04-windows\include\imessenger.h
+	<string>
+
