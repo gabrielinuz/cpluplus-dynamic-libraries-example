@@ -46,8 +46,8 @@ int main()
         if(implements("IGreeter"))
         {
             //CREATE GREETER
-            typedef IGreeter* (*create_greeter_type) ();
-            create_greeter_type createGreeter = (create_greeter_type) loader->getExportedFunction("create");
+            typedef IGreeter* (*create_type) ();
+            create_type createGreeter = (create_type) loader->getExportedFunction("create");
             IGreeter* greeter = createGreeter();
 
             greeter->greet("Hello World!");

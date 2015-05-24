@@ -7,8 +7,8 @@
 	<File name="include/LibraryLoader.h" open="0" top="0" tabpos="4">
 		<Cursor position="668" topLine="13" />
 	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="0">
-		<Cursor position="1836" topLine="40" />
+	<File name="main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1845" topLine="40" />
 	</File>
 	<File name="src/LibraryLoader.cpp" open="0" top="0" tabpos="3">
 		<Cursor position="1867" topLine="41" />
