@@ -7,4 +7,3 @@ On windows this option should be removed.
 Colaborators:
 
 	Matías Gastón
-	Natanael Russo

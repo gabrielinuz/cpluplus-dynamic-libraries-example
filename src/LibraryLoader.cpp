@@ -57,7 +57,7 @@ void* LibraryLoader::loadLibrary(string name)
     return m_library;
 }
 
-void* LibraryLoader::getExportedFunction(string name)
+void* LibraryLoader::getExternalFunction(string name)
 {
     #ifdef __unix__
         m_method = dlsym(m_library, name.c_str());

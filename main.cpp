@@ -41,13 +41,13 @@ int main()
     if(load)
     {
         typedef bool (*test_type) (string);
-        test_type implements = (test_type) loader->getExportedFunction("implements");
+        test_type implements = (test_type) loader->getExternalFunction("implements");
         //TEST TYPE
         if(implements("IGreeter"))
         {
             //CREATE GREETER
             typedef IGreeter* (*create_type) ();
-            create_type createGreeter = (create_type) loader->getExportedFunction("create");
+            create_type createGreeter = (create_type) loader->getExternalFunction("create");
             IGreeter* greeter = createGreeter();
 
             greeter->greet("Hello World!");

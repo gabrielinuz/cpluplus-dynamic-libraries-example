@@ -22,7 +22,7 @@ class LibraryLoader : public ILibraryLoader
         static LibraryLoader* getInstance();
 
         void* loadLibrary(string name);
-        void* getExportedFunction(string name);
+        void* getExternalFunction(string name);
         bool freeLibrary();
 
     protected:
