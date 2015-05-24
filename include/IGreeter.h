@@ -21,36 +21,17 @@
  *  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **/
 
-#include "../../include/IGreeter.h"
-#include "../../include/IMessenger.h"
-#include <iostream>
-#include <string>
+#ifndef IGREETER_H
+#define IGREETER_H
 
+#include <string>
 using namespace std;
 
-class ConsoleGreeter : public IGreeter, public IMessenger
+class IGreeter
 {
     public:
-        void greet(string message)
-        {
-            cout << "I am the console greeter and the message is: " << message << endl;
-        }
-
-        void say(string message)
-        {
-            cout << "I am the console messenger and the message is: " << message << endl;
-        }
+        virtual ~IGreeter() {}
+        virtual void greet(string message) = 0;
 };
 
-extern "C"
-{
-    bool implements(string type)
-    {
-        return type == "IGreeter" ? true : false;
-    }
-
-    IGreeter* create()
-    {
-        return new ConsoleGreeter();
-    }
-}
+#endif // IGREETER_H

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1432440048 source:/home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/lib/consolemessenger/main.cpp
+	"../../include/IMessenger.h"
+	<iostream>
+
+1428734460 /home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/include/IMessenger.h
+	<string>
+

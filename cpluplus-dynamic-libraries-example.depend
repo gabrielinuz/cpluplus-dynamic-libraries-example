@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1432440186 source:/home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/main.cpp
+	<iostream>
+	<string>
+	"include/IGreeter.h"
+	"include/ILibraryLoader.h"
+	"include/LibraryLoader.h"
+
+1428734460 /home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/include/IGreeter.h
+	<string>
+
+1432439874 /home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/include/ILibraryLoader.h
+	<string>
+
+1432439915 /home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/include/LibraryLoader.h
+	"dlfcn.h"
+	<windows.h>
+	"ILibraryLoader.h"
+	<string>
+	<iostream>
+
+1426998480 /home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/include/dlfcn.h
+	<features.h>
+	<stddef.h>
+	<bits/dlfcn.h>
+
+1432439898 source:/home/gabriel/Desarrollo/cplusplus/cpluplus-dynamic-libraries-example/src/LibraryLoader.cpp
+	"../include/LibraryLoader.h"
+

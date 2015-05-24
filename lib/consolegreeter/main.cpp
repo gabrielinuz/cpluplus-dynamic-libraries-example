@@ -28,17 +28,12 @@
 
 using namespace std;
 
-class ConsoleGreeter : public IGreeter, public IMessenger
+class ConsoleGreeter : public IGreeter
 {
     public:
         void greet(string message)
         {
             cout << "I am the console greeter and the message is: " << message << endl;
-        }
-
-        void say(string message)
-        {
-            cout << "I am the console messenger and the message is: " << message << endl;
         }
 };
 
