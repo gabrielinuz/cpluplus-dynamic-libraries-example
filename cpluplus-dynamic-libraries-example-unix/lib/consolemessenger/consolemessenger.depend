@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1427127548 source:/home/gabriel/develop/cplusplus/going-to-components-examples/the-example-refactoring-04-unix/lib/consolemessenger/main.cpp
-	"../../include/IMessenger.h"
-	<iostream>
-
-1426998491 /home/gabriel/develop/cplusplus/going-to-components-examples/the-example-refactoring-04-unix/include/IMessenger.h
-	<string>
-

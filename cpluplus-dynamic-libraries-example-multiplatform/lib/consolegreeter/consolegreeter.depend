@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1426887872 source:/home/gabriel/develop/cplusplus/component-example/the-example-refactoring-04/lib/consolegreeter/main.cpp
-	"../../include/IGreeter.h"
-	<iostream>
-	<string>
-
-1426863630 /home/gabriel/develop/cplusplus/component-example/the-example-refactoring-04/include/IGreeter.h
-	<string>
-
